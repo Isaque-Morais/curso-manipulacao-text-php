@@ -23,3 +23,10 @@ list($nome, $sobrenome) = explode(' ', $nome);
 
 echo 'Nome:' . $nome . PHP_EOL;
 echo 'Sobrenome:' . $sobrenome . PHP_EOL;
+
+$csv = 'Isaque Morais,20,isaque@alura.com.br';
+var_dump(explode(',', $csv));
+
+$email2 = 'isaque@alura.com.br';
+
+echo trim($email, ' ') . PHP_EOL;
